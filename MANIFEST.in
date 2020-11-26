@@ -1,0 +1,5 @@
+include requirements.txt
+include LICENSE
+
+recursive-include cf_scraping *
+global-exclude *.pyc
