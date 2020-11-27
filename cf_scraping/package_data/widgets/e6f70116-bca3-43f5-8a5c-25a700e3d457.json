@@ -1,0 +1,57 @@
+[
+  {
+    "model": "workflows.abstractwidget",
+    "fields": {
+      "name": "Boilerplate removal",
+      "action": "scraping_boilerplate_removal",
+      "wsdl": "",
+      "wsdl_method": "",
+      "description": "Removes all text that is not considered the text of an article (e.g. navigation text, footers, headers).",
+      "category": "a23d74eb-0c33-4adb-b37b-44a2a39084b5",
+      "visualization_view": "",
+      "streaming_visualization_view": "",
+      "interactive": false,
+      "interaction_view": "",
+      "post_interact_action": "",
+      "image": "",
+      "treeview_image": "",
+      "static_image": "",
+      "has_progress_bar": false,
+      "is_streaming": false,
+      "order": 1,
+      "uid": "e6f70116-bca3-43f5-8a5c-25a700e3d457",
+      "package": "cf_scraping",
+      "always_save_results": false,
+      "windows_queue": false
+    }
+  },
+  {
+    "model": "workflows.abstractinput",
+    "fields": {
+      "name": "HTML",
+      "short_name": "htm",
+      "description": "The HTML of a webpage",
+      "variable": "html",
+      "widget": "e6f70116-bca3-43f5-8a5c-25a700e3d457",
+      "required": false,
+      "parameter": false,
+      "multi": false,
+      "default": "",
+      "parameter_type": "textarea",
+      "order": 1,
+      "uid": "a6176573-78f6-493c-8aa7-bd456c7978c3"
+    }
+  },
+  {
+    "model": "workflows.abstractoutput",
+    "fields": {
+      "name": "Text",
+      "short_name": "txt",
+      "description": "Article text",
+      "variable": "text",
+      "widget": "e6f70116-bca3-43f5-8a5c-25a700e3d457",
+      "order": 1,
+      "uid": "653a9f8c-fd42-421e-ac2f-89cd020b1472"
+    }
+  }
+]

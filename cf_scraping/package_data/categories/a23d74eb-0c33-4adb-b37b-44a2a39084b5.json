@@ -1,0 +1,9 @@
+{
+  "model": "workflows.category",
+  "fields": {
+    "name": "Web Scraping",
+    "parent": null,
+    "order": 1,
+    "uid": "a23d74eb-0c33-4adb-b37b-44a2a39084b5"
+  }
+}
