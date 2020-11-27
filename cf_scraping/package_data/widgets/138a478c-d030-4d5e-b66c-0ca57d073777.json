@@ -34,7 +34,7 @@
       "variable": "url",
       "widget": "138a478c-d030-4d5e-b66c-0ca57d073777",
       "required": false,
-      "parameter": false,
+      "parameter": true,
       "multi": false,
       "default": "",
       "parameter_type": "text",
